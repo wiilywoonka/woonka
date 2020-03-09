@@ -1,0 +1,86 @@
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    border: indigo solid 1px;
+}
+
+.container div {
+    float: left;
+    height: 100vh;
+    color: floralwhite;
+}
+
+.first {
+    text-transform: capitalize;
+    width: 25%;
+}
+
+.second {
+    text-transform: capitalize;
+    width: 20%
+}
+
+.all {
+    
+    width: 55%;
+}
+
+.olo {
+    
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 500px;
+    height: 40px;
+    overflow: hidden;
+}
+
+
+.foot {
+    clear: both;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: lawngreen;
+}
+
+.boxes {
+    /* border: deeppink solid 1px; */
+    height: 250px;
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box {
+    float: left;
+    width: 33%;
+    height: 100%;
+    /* border: dashed 1px #000; */
+}
+
+.blue {
+    
+    background-color: hsla(239, 52%, 12%, 0.94);
+}
+
+.orange {
+    background-color: hsla(14, 85%, 50%, 0.7);
+}
+
+.pink {
+    background-color: hsla(300, 67%, 35%, 0.5);
+}
+
+.sky {
+    background-color: hsla(175, 63%, 48%, 0.81);
+}

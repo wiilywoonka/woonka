@@ -1,0 +1,150 @@
+.border {
+    border: solid orange 1px;
+}
+
+li {
+    
+    list-style: none;
+    padding: 8px;
+    margin: 10px;  
+
+}
+
+a {
+
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+
+/* ------------------nav section-------------------> */
+
+.nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    width: 100%;
+
+
+    /* overflow: hidden; */
+
+}
+
+.nav ul {
+
+    display: flex;
+
+}
+
+.blue {
+    background-color:rgb(55, 97, 212);
+}
+
+.white {
+
+    color: white;
+    
+}
+
+.nav li a:hover {
+
+    color: indianred;
+    text-decoration: underline;
+
+}
+
+/* ---------main-------> */
+
+main {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+
+    margin: 100px;
+
+    width: 90%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.input input {
+
+    height: 44px;
+    width: 482px;
+    border-radius: 20px;
+    border: blanchedalmond solid 1px;
+    padding: 12px 40px;
+
+}
+
+#oko {
+
+   
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#oko .buttons {
+
+    margin-top: 40px;
+    align-self: center;
+}
+
+#oko button {
+
+    margin-left: 40px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border-color: #fff;
+    border-style: none;
+}
+
+#oko button:hover {
+    border: solid 1px #000;
+    cursor: pointer;
+}
+
+/* ---------footer---------> */
+
+.foot {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: rgba(238, 236, 236, 0.959);
+}
+
+.foot ul {
+
+    display: flex;
+}
+
+.foot li a:hover {
+
+    text-decoration: underline;
+}
+
+/* ------------------random-----------> */
+

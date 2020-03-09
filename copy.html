@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/resources/css/copy.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="first pink">
+                <h3>css zen garden</h3>
+            </div>
+            <div class="second blue">
+                <h1>the beauty of css design</h1>
+            </div>
+            <div class="all pink">
+                <div class="olo">
+                    <p>A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.</p>
+                        <p>the example <a href="#">html</a> file and <a href="#">css</a> file</p>        
+
+                </div>
+            </div>
+        </div>
+
+        <div class="foot">
+
+            <div class="footer">
+
+                <script>
+                    let x = 1;
+                
+                    function a() {
+                      let y = 2;
+                      output(y)
+                    }
+                
+                    function b() {
+                      let z = 3;
+                      output(z)
+                    }
+                
+                    function output(value) {
+                      const para = document.createElement('p');
+                      document.body.appendChild(para);
+                      para.textContent = 'Value: ' + value;
+                    }
+
+
+                    // -------------------------------introduction to js------------------------------
+
+
+                    // ----------------------global scope---------------------->
+
+                    let userName = "willy"
+
+                    function showMessage () {
+                        // ---------------------local scope------------->
+                        let userName = "bob"
+
+                        alert(`Welcome ${userName}.`)
+                    }
+
+
+                    showMessage();
+
+                    // function pow(x,n) {
+                    //     let result
+                        
+                    //     for (let i = 1, i < n, i++) {
+                    //         console.log("wolo!")
+                    //     }
+
+                    // }
+
+
+
+
+
+
+
+                    // Write a function called add7 that takes one number and returns that number + 7.
+
+                    function add7(num) {
+
+                        let result = num;
+
+                        // let number = prompt("input a number ");
+
+                        return  result = num + 7  
+
+
+                    }
+
+                    add7(8);
+
+
+
+                    // Write a function called multiply that takes 2 numbers and returns their product.
+
+                    let multiply = (num1, num2) => num1 * num2;
+
+                    // Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+
+                    let capitalize = (word) => {
+                        return word.lenght()
+                    }
+
+
+
+
+                 
+
+                  </script>
+
+            </div>
+
+        </div>
+
+        <div class="boxes">
+
+            <div class="box orange">
+                <img src="" alt="">
+            </div>
+            <div class="box sky">
+                <img src="" alt="">
+            </div>
+            <div class="box orange">
+                <img src="" alt="">
+            </div>
+    
+
+        </div>
+       
+
+
+    </div>
+</body>
+</html>

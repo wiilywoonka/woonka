@@ -1,0 +1,281 @@
+/* @media screen only and minght {
+
+}
+ */
+header {
+    
+    height: auto;
+    width: 100%;
+
+}
+
+/* nav section -------------------->*/
+
+.nav { /*--------------------------------fixed->*/
+
+    position: fixed;
+    z-index: 100; 
+    top: 0;
+    left: 0;
+
+    /* margin-top: 20px; */
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-self: center;
+    justify-content: space-between;      
+    background-color: chocolate;
+}
+
+.title h1 {
+    
+    /* border: orchid solid 1px; */
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.title h1:hover {
+    
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.title {
+    /* border: orchid dashed 1px; */
+    padding: 20px;
+    font-size: 30px;
+    color: hsl(39, 90%, 61%);
+    cursor: pointer;
+}
+
+
+.nav ul {
+    
+    display: flex;
+    align-items: center;
+    
+    list-style: none;
+
+}
+
+.nav li {
+
+    border: solid 1px rgb(245, 182, 66);
+    border-radius: 24px;
+
+    margin-right: 10px;
+    padding: 8px;
+
+
+    text-transform: capitalize;
+    
+}
+
+.nav a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.nav a:hover {
+
+    text-decoration: underline rgb(245, 182, 66);
+}
+
+
+/* banner section ------------------------>*/
+
+.banner {
+
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 20px; */
+
+    position: relative;
+    top: 80px;
+    left: 0;
+
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-image: url('../images/banner.jpg');
+
+    font-size: 50px;
+    color: hsl(39, 90%, 61%);
+    text-shadow: 3px 3px 3px black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-top: solid 1px #000;
+}
+
+.banner h2 {
+    margin-top: 30px;
+    /* border: solid 1px #fff; */
+}
+
+.banner p {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    height: 300px;
+    width: 300px;
+
+}
+
+.banner img:hover {
+    border: solid 2px #fff;
+}
+
+/* ------------------------ end header-----> */
+
+/* .background { opaciti ksjahdjkagsdja
+
+    background-image: url("/resources/images/travelpochoclo.jpg");
+    opacity: 0.2;
+
+} */
+
+main {   
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: 60px;
+    left: 0;
+
+
+    /* border: dashed 1px red; */
+
+/* --------------------------------- Main  100 vh */
+    height: auto;
+    width: 100%;
+}
+
+
+/* ----------------------- pochoclo image -------------------------> */
+
+
+/* no se usa de momento xD! */
+
+
+.pochoclo {
+
+   position: relative;
+   top: 80px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.pochoclo img {
+    display: none;
+    border-radius: 50%;
+
+}
+
+
+/* ------------------------------------------------> */
+
+.main {
+    margin-top: 70px;
+}
+
+
+
+/* gallery section---------------------> */
+
+.gallery { 
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 1200px;
+    overflow: hidden;
+
+    /* background-color: salmon; */
+    
+}
+
+.box {
+
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-top: rgb(245, 182, 66) solid 2px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    /* border: solid 1px purple; */
+}
+
+
+/* ----------- end main section---> */
+
+
+/* ----------------------------footer section-------------------------------> */
+
+
+footer {
+
+
+    position: relative;
+    top: 60px;
+    left: 0;
+
+    height: 300px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: purple; */
+}
+
+
+.footer {
+
+    padding: 20px;
+    border: rgb(245, 182, 66) dashed 2px;
+    margin-top: 20px;
+    height: 200px;
+    width: 80%;
+
+    /* background-color: palevioletred; */
+}
+
+
+
+
+/* section new ---------------------*/
+
+

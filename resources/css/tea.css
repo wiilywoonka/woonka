@@ -1,0 +1,214 @@
+
+
+h2, h3, p, a {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: grey;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+li:hover {
+    border-bottom   : solid 3px hsl(103, 77%, 37%);
+}
+
+header {
+    position: relative;
+    top: 60px;
+    left: 0;
+    height: auto;
+    width: 100%;
+
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    width: 100%;
+
+    background-color: #fff;
+}
+
+.nav h2 {
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+/* ---------------------------bAnner section-------------> */
+
+.banner {
+    padding: 20px;
+    display: flex;
+    /* border: dashed palevioletred 3px; */
+    background-color: hsla(0, 0%, 40%, 0.1);
+}
+
+.banner img {
+    height: 350px;
+    width: 550px;
+}
+
+.banner div {
+
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* border: solid gold 1px; */
+    padding: 20px;
+}
+
+.banner div h2 {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.banner div p {
+    text-align: center;
+    padding: 5px;
+}
+
+/* -----------------------------end baner secion................> */
+
+section {
+    margin: 100px 20px;
+
+}
+
+.title {
+    width: 250px;
+    text-align: right;
+    border-bottom: solid 3px hsl(103, 77%, 37%);
+    margin-bottom: 100px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    height: auto;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border: palevioletred solid 1px;
+    border-radius: 50%;
+}
+
+.box h3 {
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.box p {
+    padding: 5px;
+    line-height: 1.5;
+}
+
+/* ------------------------------ */
+
+.our-process {
+    display: flex;
+    padding: 20px;
+}
+
+.our-process img {
+    background-color: peru;
+    width: 600px;
+    height: 300px;
+}
+
+.our-process div {
+    /* border: red dashed 2px; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.our-process div h3 {
+    margin-bottom: 10px;
+}
+
+/* -------------------------aside section------------------> */
+aside {
+    padding: 60px 0;
+    background-color: hsla(0, 0%, 40%, 0.1);
+
+}
+
+aside h2 {
+    text-align: center;
+
+}
+
+.subcribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subcribe div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: solid 1px #000;
+    margin: 20px;
+    padding: 10px;
+}
+
+.subcribe div p {
+    padding: 8px;
+}
+
+.subcribe button {
+    background-color: hsla(103, 77%, 37%, 0.7);
+    color: #fff;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+}

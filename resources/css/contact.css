@@ -1,0 +1,179 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+
+    height: auto;
+    width: 100vw;
+    border: orangered 1px solid;
+
+    display: flex;
+    opacity: 0.5;
+   
+}
+
+.box {
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    /* z-index: 150; */
+    background-color:  purple;
+    margin: 0;
+    width: 50%;
+    height: 800px;
+    /* border: dashed 1px #000; */
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    background-color: hsla(239, 52%, 12%, 0.2);
+    background-image: url(/resources/images/tea.jpg);
+    background-size: cover;
+   
+}
+
+#left h3 {
+    opacity: 1;
+    color: #000;
+}
+
+#right {
+    background-color: hsla(14, 85%, 50%, 0.2);
+    background-image: url(/resources/images/happy-coffee-6347.jpg);
+    background-size: contain;
+
+}
+
+
+.flex {
+
+    /* margin-top: 80px;     */
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    display: none;
+    /* position: absolute; */
+    /* position: sticky; */
+    z-index: 200;    
+    cursor: pointer;
+    /* background-color: #000; */
+    margin: 45px 0;
+
+    height: 250px;
+    width: 250px;
+
+    border-radius: 50%;
+
+
+    background-image: url("/resources/images/woonka.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsla(14, 41%, 6%, 1);
+
+    /* opacity: 1; */
+}
+
+/* --------------------------------Form section-----------> */
+
+.form {
+    opacity: 1;
+    position: relative;
+    top: -800px;
+    
+    z-index: 500    ;
+    /* background-image: url(/resources/images/silhouette-photo-of-trees-962312.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    overflow: hidden;
+    /* display: flex; */
+    width: 400px;
+    height: auto;
+
+    border: solid 3px gold;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.input {
+    /* border: dashed olivedrab 2px; */
+
+    
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 80px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.input input {
+
+    /* text-align: center; */
+    width: 270px;
+    height: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.input textarea{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.input button {
+    
+    color: #fff;
+    background-color: hsl(29, 88%, 50%);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.input button:hover {
+    border: solid 1px #000;
+    background-color: hsl(0, 88%, 51%);
+    font-weight: bold;
+}
+
+/* --------------------------end form section-----------------> */
+
+span {
+    color: hsl(29, 88%, 50%);
+}
