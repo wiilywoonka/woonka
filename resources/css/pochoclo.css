@@ -11,7 +11,7 @@ header {
 
 /* nav section -------------------->*/
 
-.nav { /*--------------------------------fixed->*/
+.fixed-top { /*--------------------------------fixed->*/
 
     position: fixed;
     z-index: 100; 
@@ -19,72 +19,51 @@ header {
     left: 0;
 
     /* margin-top: 20px; */
-    height: 80px;
+    height: 60px;
     width: 100%;
 
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: space-between;      
     background-color: chocolate;
+    border: solid 1px #000;
 }
 
-.title h1 {
-    
-    /* border: orchid solid 1px; */
-    cursor: pointer;
-    margin-left: 10px;
-    font-size: 26px;
-    text-transform: uppercase;
-    color: white;
-
-}
-
-.title h1:hover {
+#logo h1:hover {
     
     text-decoration: underline;
     text-decoration-color: #fff;
 }
 
-.title {
-    /* border: orchid dashed 1px; */
-    padding: 20px;
-    font-size: 30px;
-    color: hsl(39, 90%, 61%);
+#logo {
+    margin-left: 1.5rem;
+    height: 3rem;
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
 
-.nav ul {
+.fixed-top ul {
     
     display: flex;
-    align-items: center;
-    
     list-style: none;
 
 }
 
-.nav li {
-
+.fixed-top li {
     border: solid 1px rgb(245, 182, 66);
     border-radius: 24px;
-
     margin-right: 10px;
     padding: 8px;
-
-
     text-transform: capitalize;
-    
 }
 
-.nav a {
-
+a {
     text-decoration: none;
-
     color: white;
-
 }
 
-.nav a:hover {
+.fixed-top a:hover {
 
     text-decoration: underline rgb(245, 182, 66);
 }
@@ -100,23 +79,23 @@ header {
     /* margin-top: 20px; */
 
     position: relative;
-    top: 80px;
+    top: 60px;
     left: 0;
 
-    background-size: contain;
-    background-repeat: repeat-x;
+    background-size: cover;
     background-image: url('../images/banner.jpg');
+    background-attachment: fixed;
+    background-position: 50%;
 
     font-size: 50px;
     color: hsl(39, 90%, 61%);
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 0 0 black;
     
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
-    border-top: solid 1px #000;
 }
 
 .banner h2 {
@@ -130,18 +109,35 @@ header {
 }
 
 .banner img {
-
+    animation-name: pochoclo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     border-radius: 50%;
-
     cursor: pointer;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
 
-    height: 300px;
-    width: 300px;
-
+@keyframes pochoclo {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 150px;
+    }
+    50% {
+        left: 0;
+    }
+    75% {
+        left: -150px;
+    }
+    100% {
+        left: 0;
+    }
 }
 
 .banner img:hover {
-    border: solid 2px #fff;
 }
 
 /* ------------------------ end header-----> */
