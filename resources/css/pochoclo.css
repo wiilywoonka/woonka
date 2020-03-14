@@ -179,9 +179,9 @@ main {
 
 .pochoclo {
 
-   position: relative;
-   top: 80px;
-   display: flex;
+    position: relative;
+    top: 80px;
+    display: flex;
     justify-content: center;
     align-items: center;
   
