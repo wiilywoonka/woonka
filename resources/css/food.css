@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1, h3, a, button {
+h1, h3, a, button, p {
     color: #fff;
 } 
 
@@ -25,14 +25,15 @@ a {
 nav {
     z-index: 10;
     border: 1px solid #000;
+    border-radius: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    width: 100%;
+    width: 90%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 5%;
     background-color: var(--color-sky);
 }
 
@@ -45,8 +46,10 @@ li {
     margin-right: 0.5rem;
     text-transform: capitalize;
     padding: 0.5rem;
-    border-right: solid 1px #fff;
-    border-bottom: solid 1px #fff;
+}
+
+li:hover {
+    border-bottom:solid 1px #fff;
 }
 
 .logo {
@@ -79,7 +82,7 @@ main {
 }
 
 .title {
-    text-overflow: 5px 5px var(--color-sky);
+    text-shadow: 5px 5px var(--color-sky);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -139,7 +142,6 @@ section {
     width: 100%;
     height: 100vh;
     position: relative;
-    border: dashed 3px red;
 }
 
 #about {
@@ -148,13 +150,54 @@ section {
 
 }
 
-#imagen {
-    position: absolute;
-    height: 250px;
-    overflow: hidden;
+#title {
+    position: relative;
+    top: 5rem;
+    left: 40rem;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #000;
 }
 
-#image img {
-    width: 100%;
+#imagen {
+    border-radius: 20px;
+    margin: 1.5rem;
+    position: absolute;
+    top: 2.5rem;
     height: auto;
+    width: 28%;
+    overflow: hidden;
+    text-align: left;
+}
+
+#imagen img {
+    width: 100%;
+    height: 100%;
+}
+
+#imagen figcaption {
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    color: #ffffff;
+}
+
+.description {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 600px;
+    height: 22rem;
+}
+
+.description p {
+    line-height: 2.5rem;
+    font-size: 25px;
+}
+
+.filtro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: hsla(100, 100%, 80%, 0.2);
 }
