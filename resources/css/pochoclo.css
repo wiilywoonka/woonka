@@ -9,6 +9,12 @@ header {
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 /* nav section -------------------->*/
 
 .fixed-top { /*--------------------------------fixed->*/
@@ -56,11 +62,6 @@ header {
     margin-right: 10px;
     padding: 8px;
     text-transform: capitalize;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 .fixed-top a:hover {
@@ -112,6 +113,7 @@ a {
     animation-name: pochoclo;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
     border-radius: 50%;
     cursor: pointer;
     height: 250px;
