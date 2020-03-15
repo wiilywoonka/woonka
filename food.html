@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/css/food.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>food</title>
 </head>
 <body>
@@ -20,11 +21,45 @@
         </nav>
     </header>
     <main>
-        <div class="title">
-            <h1>the cooking master</h1>
-            <h3>Buy our home made bakery</h3>
+
+        <div class="container" id="home">
+            <div class="title">
+                <h1>the cooking master</h1>
+                <h3>Buy our home made bakery</h3>
+            </div>
+            <button>Buy Now</button>
         </div>
-        <button>Buy Now</button>
+
+        <section id="about">
+            <figure id="imagen">
+                <img src="/resources/images/women-s-white-and-black-button-up-collared-shirt-774909.jpg" alt="a woman smile">
+                <figcaption>a woman</caption>
+            </figure>
+            <div class="description">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, facere enim a earum sunt dicta sit et nemo amet pariatur vel. Dolores quam neque praesentium iusto ut libero voluptates maxime?
+                </p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>contact</h3>
+            <div class="form">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <label for="message">Write your message here!!</label>
+                    <textarea name="message" id="message" rows="4">put your message here</textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
     </main>
 </body>
 </html>
