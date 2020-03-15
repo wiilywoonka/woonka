@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+   --color-blue: #338EE2;
+   --color-sky: #143E65; 
+}
+
+h1, h3, a, button {
+    font-family: "Roboto",sans-serif;
+    color: #fff;
+} 
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-sky);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    text-transform: capitalize;
+    padding: 1.5rem;
+}
+
+.logo {
+    margin: 1.5rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/resources/images/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.title {
+    text-overflow: 5px 5px var(--color-sky);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    height: 200px;
+    width: 600px;
+}
+
+.title h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.title h3 {
+    font-size: 40px;
+    line-height: 47px;
+}
+
+button {
+    animation-name: move-left;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    font-size: 1.5rem;
+    border: solid 1px var(--color-sky);
+    border-radius: 37px;
+    height: 80px;
+    width: 300px;
+    background-color: var(--color-blue);
+}
+
+button:focus {
+    background-color: rgb(101, 20, 74);
+}
+
+@keyframes move-left {
+    0%{
+        opacity: 0;
+        left: -100px;
+    }
+
+    
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
