@@ -105,7 +105,7 @@ main {
 button {
     animation-name: move-left;
     animation-duration: 4s;
-    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
     cursor: pointer;
     position: relative;
     
@@ -200,4 +200,63 @@ section {
     height: 100%;
     position: absolute;
     background-color: hsla(100, 100%, 80%, 0.2);
+}
+
+.contact {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.contact h3{
+    position: absolute;
+    top: -10px;
+    font-size: 40px;
+}
+
+.form {
+    width: 600px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    padding: 20px;
+    border-radius: 24px;
+    position: relative;
+}
+
+input, textarea {
+    margin-top: 5px;
+
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 2.5rem;
+}
+
+input {
+    width: 300px;
+    border-radius: 24px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+input:focus {
+    border-color: transparent;
+}
+
+label {
+    color: white;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    position: absolute;
+    margin-top: 30px;
 }
